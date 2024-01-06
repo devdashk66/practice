@@ -15,14 +15,6 @@ export default function Home() {
           {!name ? "Click to show" : "Click to hide"}
         </button>
       </main>
-
-      <main>
-        <p>this is another branch</p>
-      </main>
-
-      <main>
-        <p>this is another branch 2</p>
-      </main>
     </>
   );
 }
