@@ -8,11 +8,17 @@ export default function Home() {
     setName(!name);
   };
   return (
-    <main>
-      <p className="text-4xl">My name is {name && "Dev"}</p>
-      <button className="px-2 py-2 bg-slate-600 mt-6" onClick={showName}>
-        {!name ? "Click to show" : "Click to hide"}
-      </button>
-    </main>
+    <>
+      <main>
+        <p className="text-4xl">My name is {name && "Dev"}</p>
+        <button className="px-2 py-2 bg-slate-600 mt-6" onClick={showName}>
+          {!name ? "Click to show" : "Click to hide"}
+        </button>
+      </main>
+
+      <main>
+        <p>this is another branch</p>
+      </main>
+    </>
   );
 }
