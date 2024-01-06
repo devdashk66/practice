@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Country from "./components/Country";
 
 export default function Home() {
   const [name, setName] = useState(false);
@@ -14,6 +15,10 @@ export default function Home() {
         <button className="px-2 py-2 bg-slate-600 mt-6" onClick={showName}>
           {!name ? "Click to show" : "Click to hide"}
         </button>
+      </main>
+
+      <main>
+        <Country></Country>
       </main>
     </>
   );
