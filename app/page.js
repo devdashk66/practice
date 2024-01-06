@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Country from "./components/Country";
+import Capital from "./components/Capital";
 
 export default function Home() {
   const [name, setName] = useState(false);
@@ -19,6 +20,9 @@ export default function Home() {
 
       <main>
         <Country></Country>
+      </main>
+      <main>
+        <Capital></Capital>
       </main>
     </>
   );
