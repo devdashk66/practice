@@ -19,6 +19,10 @@ export default function Home() {
       <main>
         <p>this is another branch</p>
       </main>
+
+      <main>
+        <p>this is another branch 2</p>
+      </main>
     </>
   );
 }
